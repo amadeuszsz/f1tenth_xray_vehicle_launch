@@ -1,0 +1,15 @@
+/**:
+  ros__parameters:
+    port: "/dev/sensors/vesc"
+    brake_max: 200.0
+    brake_min: 0.0
+    current_max: 200.0
+    current_min: -200.0
+    duty_cycle_max: 0.0
+    duty_cycle_min: 0.0
+    position_max: 0.0
+    position_min: 0.0
+    servo_max: 0.83
+    servo_min: 0.13
+    speed_max: 60000.0
+    speed_min: -60000.0

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <!-- load parameter -->
+  <xacro:property name="vehicle_info" value="${xacro.load_yaml('$(find f1tenth_xray_vehicle_description)/config/vehicle_info.param.yaml')}"/>
+
+  <!-- vehicle body -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0.15371 0 -${vehicle_info['/**']['ros__parameters']['wheel_radius']}" rpy="0 0 ${pi/2.0}"/>
+      <geometry>
+        <mesh filename="package://f1tenth_xray_vehicle_description/mesh/F1TenthVehicle.dae" scale="1 1 1"/>
+      </geometry>
+    </visual>
+  </link>
+  
+</robot>

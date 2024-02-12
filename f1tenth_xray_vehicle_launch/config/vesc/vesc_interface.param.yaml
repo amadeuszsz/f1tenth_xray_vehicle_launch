@@ -1,0 +1,8 @@
+/**:
+  ros__parameters:
+    speed_to_erpm_gain: 3750.0
+    speed_to_erpm_offset: 0.0
+    steering_angle_to_servo_gain: -0.9
+    steering_angle_to_servo_offset: 0.48
+    battery_cells: 4
+    accel_to_current_gain: 10.0
